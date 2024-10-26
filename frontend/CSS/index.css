@@ -1,0 +1,322 @@
+.header {
+    padding: 3px 0px;
+    color: #ffffff;
+    font-size: 24px;
+    line-height: normal;
+    background: #202931;
+}
+.container{
+    max-width: 1152px;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+.head_cont{
+    display: flex;
+}
+.nav_cont{
+    display: flex;
+    margin: 0 auto;
+}
+.nav{
+    display: flex;
+    padding: 0 auto;
+    justify-content:space-between;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+.menu-item{
+    padding-right: 30px;
+    color: #ffffff;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body{
+    background-color: rgba(0, 111, 165, 0.95);
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+}
+
+.headline{
+    text-align: center;
+}
+.title{
+    padding: 223px 0px 231px 0px;
+}
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.imt{
+    text-align: center;
+}
+.img1{
+    max-width: 453px;
+    max-height: 321px;
+    background-image: url(/lilsite/dstucacl/img/14abfcf9cb58831b4493711f08f3cb6c.jpeg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    margin: 0px 0px 16px 4px ;
+    
+}
+.himg1{
+    color: #FFF;
+    text-align: center;
+    text-shadow: 5px 7px 3px rgba(0, 0, 0, 0.70);
+    font-family: Inter;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 131.523%; /* 84.175px */
+    margin: 0 0 0 0;
+    width: 80.693px;
+    height: 109.772px;
+    padding: 113.93px 186.34px 97.3px 186.34px;
+}
+.img2{
+    max-width: 453px;
+    max-height: 321px;
+    background-image: url(/lilsite/dstucacl/img/296fd1e750d31d51afa96b067bd768c5.jpeg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    margin: 0px 4px 16px 0px ;
+}
+.himg2{
+    color: #FFF;
+    text-align: center;
+    text-shadow: 5px 7px 3px rgba(0, 0, 0, 0.70);
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 112.023%; /* 53.771px */
+    margin: 0 0 0 0;
+    padding: 71px 2px 82px 4px;
+    width: 448px;
+    height: 168px;
+}
+.img3{
+    max-width: 453px;
+    max-height: 321px;
+    background-image: url(/lilsite/dstucacl/img/4d338a795e2246e252e0dd6efe47394d.jpeg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    margin: 0px 0px 16px 4px ;
+}
+.himg3{
+    width: 405.338px;
+    height: 105px;
+    color: #FFF;
+    text-align: center;
+    text-shadow: 5px 7px 3px rgba(0, 0, 0, 0.70);
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 131.523%; /* 63.131px */
+    margin: 0 0 0 0;
+    padding: 112px 24.02px 104px 24.02px;
+}
+.img4{
+    max-width: 453px;
+    max-height: 321px;
+    background-image: url(/lilsite/dstucacl/img/96975bd45bf2b981197c23c2911ef9f9.jpeg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    margin: 0px 4px 16px 0px ;
+}
+.himg4{
+    width: 374.349px;
+    height: 172.635px;
+    color: #FFF;
+    text-align: center;
+    text-shadow: 5px 7px 3px rgba(0, 0, 0, 0.70);
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 112.023%; /* 44.809px */
+    margin: 0 0 0 0;
+    padding: 119.17px 39px 29.19px 40.03px;
+}
+.img5{
+    max-width: 453px;
+    max-height: 321px;
+    background-image: url(/lilsite/dstucacl/img/d4a04e5cd359de3a5ce644dcaf743306.jpeg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    margin: 0px 0px 16px 4px ;
+}
+.himg5{
+    width: 451px;
+    height: 256px;
+    color: #FFF;
+    text-align: center;
+    text-shadow: 5px 7px 3px rgba(0, 0, 0, 0.70);
+    font-family: Inter;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 112.023%; /* 52.651px */
+    margin: 0 0 0 0;
+    padding: 39px 2px 26px 0px ;
+}
+.img6{
+    max-width: 453px;
+    max-height: 321px;
+    background-image: url(/lilsite/dstucacl/img/106e81c79e124371bf63d88b7a4b31aa.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    margin: 0px 4px 16px 0px ;
+}
+.himg6{
+    width: 365px;
+    height: 162px;
+    color: #FFF;
+    text-align: center;
+    text-shadow: 5px 7px 3px rgba(0, 0, 0, 0.70);
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 112.023%; /* 53.771px */
+    margin: 0 0 0 0;
+    padding: 80px 44px 79px 44.38px;
+}
+.img7{
+    max-width: 453px;
+    max-height: 321px;
+    background-image: url(/lilsite/dstucacl/img/908483d54520b9547ca460a7b4786f59.jpeg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    margin: 0px 0px 16px 4px ;
+}
+.himg7{
+    width: 292px;
+    height: 108px;
+    color: #FFF;
+    text-align: center;
+    text-shadow: 5px 7px 3px rgba(0, 0, 0, 0.70);
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 112.023%; /* 53.771px */
+    margin: 0 0 0 0;
+    padding: 117px 81.38px 96px 80px;
+}
+.img8{
+    max-width: 453px;
+    max-height: 321px;
+    background-image: url(/lilsite/dstucacl/img/ead46771d677a4342afee1036dc61424.jpeg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    margin: 0px 4px 16px 0px ;
+}
+.himg8{
+    width: 395px;
+    height: 162px;
+    color: #FFF;
+    text-align: center;
+    text-shadow: 5px 7px 3px rgba(0, 0, 0, 0.70);
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 112.023%; /* 53.771px */
+    margin: 0 0 0 0;
+    padding: 80px 30px 79px 28.38px;
+}
+.img9{
+    max-width: 453px;
+    max-height: 321px;
+    background-image: url(/lilsite/dstucacl/img/e677f4a197aca644a4c9deb006da29ff.jpeg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    margin: 0px auto;
+}
+.himg9{
+    width: 299px;
+    height: 162px;
+    color: #FFF;
+    text-align: center;
+    text-shadow: 5px 7px 3px rgba(0, 0, 0, 0.70);
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 112.023%; /* 53.771px */
+    margin: 0 0 0 0;
+    padding: 80px 77.38px 79px 77px ;
+}
+.choose-a{
+    position: relative;
+}
+.title{
+color: #F5F5F5;
+text-align: center;
+font-family: Inter;
+font-size: 64px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.himt{
+    color: #F5F5F5;
+
+/* Заголовок H0 */
+font-family: Inter;
+font-size: 64px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.head-text{
+    color: #ffffff;
+    text-align: center;
+    font-family: ITF Devanagari Marathi;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.footer{
+    margin: 20px 0px 0px 0px;
+    background-color: #202931;
+}
+.fot{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
