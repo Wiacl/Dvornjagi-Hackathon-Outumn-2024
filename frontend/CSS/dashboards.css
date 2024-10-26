@@ -31,11 +31,12 @@
     display: flex;
     flex-grow: 1;
     flex-basis: 0;
+    align-items: center;
 }
-.menu-item{
-    padding-right: 73px;
+.menu_item{
+    padding-right: 2.5em;
 }
-.menu-item:first-child{
+.menu_item:first-child{
     padding-left: 181px;
 }
 .cab{
@@ -55,11 +56,30 @@ ul{
 body{
     background-color: rgba(255, 255, 255, 0.95);
 }
+/* .main{
+    width: m-content;
+} */
+.nav_container{
+    max-width: 1152px;
+
+}
+.left_nav{
+    display: flex;
+}
 .nav_field{
     display: flex;
     width: max-content;
     height: 100%;
     background: rgba(51, 52, 52, 0.68);
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    color: #ffffff;
+}
+.nav_us_name{
+    font-size: 18px;
 }
 .nav_work_inf{
     display: flex;
@@ -79,6 +99,102 @@ body{
     width: 40px;
     height: 40px;
     position: bottom;
+}
+.nav_menu_li{
+    display: flex;
+    padding: 1em 0;
+    margin: 1em 2em 1em 1.1em;
+}
+.nav_menu_li:last-child{
+    margin-bottom: 2em;
+}
+.nav_menu_li_a{
+    display: flex;
+    align-items: center;
+}
+.nav_li_img{
+    margin-right: 1em;
+}
+.nav_topmenu{
+    display: flex;
+    position: absolute;
+    top: 3.36em;
+    right: 1.7em;
+}
+.nav_topmenu_field{
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    background: linear-gradient(rgba(144, 148, 148, 1), rgba(92, 94, 94, 1));
+}
+.nav_topmenu_n_s_h{
+    display: flex;
+    width: max-content;
+    height: fit-content;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+    color: #ffffff;
+}
+.nav_topmenu_n{
+    display: flex;
+    margin: 1em 1.5em 1em 3em;
+    align-items: center;
+}
+.nav_topmenu_s{
+    display: flex;
+    margin: 1em 1.5em 1em 0;
+    align-items: center;
+}
+.nav_topmenu_h{
+    display: flex;
+    margin: 1em 1.5em 1em 0;
+    align-items: center;
+}
+.nav_topmenu_f_f_l{
+    display: flex;
+    align-items: center;
+    margin-left: 14em;
+}
+.nav_topmenu_f{
+    margin-right: 1em;
+}
+.nav_topmenu_l{
+    margin: 0em 0.8em;
+}
+.input-button-container {
+    display: flex;
+    border: 1px solid #aaa;
+    border-radius: 4px; /* Для скругления углов */
+  }
+  
+  .input-button-container input {
+    flex-grow: 1; /* Поле занимает всё доступное пространство */
+    border: none; /* Границы отсутствуют */
+    padding: 5px;
+    outline: none; /* Очертание при фокусе отсутствует */
+  }
+  
+  .input-button-container button {
+    background: #fff;
+    border: none;
+    padding: 5px;
+    cursor: pointer; /* Курсор в виде указателя */
+  }
+.nav_topmenu_s_i_a_t{
+    display: flex;
+    align-items: center;
+}
+.nav_topmenu_s_i_a_t_li{
+    margin: 0 0.5em 0em 0.5em;
+}
+/* .nav_topmenu_s_i_a_t_li:last-child{
+    padding-right: 3em;
+} */
+.nav_topmenu_i_img{
+    width: 30px;
+    height: 30px;
 }
 .dasdhboard{
     margin: 4em 0 4em 0;
@@ -162,7 +278,7 @@ body{
 
 
 .footer{
-    margin: 20px 0px 0px 0px;
+    /* margin: 20px 0px 0px 0px; */
     background-color: rgba(170, 172, 172, 1);
 }
 .fot{
