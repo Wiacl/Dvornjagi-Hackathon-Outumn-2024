@@ -1,0 +1,133 @@
+.header {
+    padding: 3px 0px;
+    font-size: 24px;
+    line-height: normal;
+    background: #ffffff;
+    color: black;
+}
+.container{
+    max-width: 1152px;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+.head_cont{
+    display: flex;
+}
+.nav_cont{
+    display: flex;
+    margin: 0 auto;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+}
+.nav{
+    display: flex;
+    padding: 0 auto;
+    justify-content:space-between;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+.menu-item{
+    padding-right: 73px;
+}
+.menu-item:first-child{
+    padding-left: 181px;
+}
+.cab{
+    display: flex;
+    padding-right: 12px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body{
+    background-color: rgba(255, 255, 255, 0.95);
+}
+.dasdhboard{
+    margin: 4em 0 4em 0;
+}
+.all_becklog{
+    display: flex;
+}
+.becklog{
+    display: flex;
+    padding-bottom: 2em;
+    max-width: 256px;
+    max-height: fit-content;
+    background-color: rgba(113, 45, 26, 0.9);
+    border-radius: 12px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.becklog1{
+    display: flex;
+    padding-bottom: 2em;
+    margin: 0 0 0 5em;
+    max-width: 256px;
+    max-height: fit-content;
+    background-color: rgba(113, 45, 26, 0.9);
+    border-radius: 12px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.becklog_name{
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    color: #ffffff;
+    padding: 21px 161px 26px 28px;
+}
+.becklog_item{
+    display: flex;
+    background-color: rgba(146, 114, 104, 0.9);
+    max-width: 224px;
+    margin: 0 16px 0 16px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.becklog_item_taskname{
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    color: #ffffff;
+    margin: 16px 5px 15px 12px;
+}
+.becklog_item_creator{
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14px;
+    color: #ffffff;
+    margin: 16px 5px 15px 12px;
+    
+}
+.becklog_item_img{
+    display: flex;
+    margin: 10px 0px 30px 12px ;
+}
+.becklog_item1{
+    display: flex;
+    margin-top: 6em;
+    background-color: rgba(146, 114, 104, 0.9);
+    max-width: 224px;
+    margin: 2em 16px 0 16px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
