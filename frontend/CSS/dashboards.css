@@ -60,10 +60,10 @@ body{
 }
 .all_becklog{
     display: flex;
+    justify-content: space-between;
 }
 .becklog{
     display: flex;
-    padding-bottom: 2em;
     max-width: 256px;
     max-height: fit-content;
     background-color: rgba(113, 45, 26, 0.9);
@@ -71,7 +71,7 @@ body{
     flex-wrap: wrap;
     flex-direction: column;
 }
-.becklog1{
+/* .becklog1{
     display: flex;
     padding-bottom: 2em;
     margin: 0 0 0 5em;
@@ -81,7 +81,7 @@ body{
     border-radius: 12px;
     flex-wrap: wrap;
     flex-direction: column;
-}
+} */
 .becklog_name{
     display: flex;
     font-family: "Poppins", sans-serif;
@@ -95,7 +95,7 @@ body{
     display: flex;
     background-color: rgba(146, 114, 104, 0.9);
     max-width: 224px;
-    margin: 0 16px 0 16px;
+    margin: 0 16px 2em 16px;
     flex-wrap: wrap;
     flex-direction: column;
 }
@@ -122,7 +122,7 @@ body{
     display: flex;
     margin: 10px 0px 30px 12px ;
 }
-.becklog_item1{
+/* .becklog_item1{
     display: flex;
     margin-top: 6em;
     background-color: rgba(146, 114, 104, 0.9);
@@ -130,4 +130,4 @@ body{
     margin: 2em 16px 0 16px;
     flex-wrap: wrap;
     flex-direction: column;
-}
+} */
