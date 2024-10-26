@@ -1,0 +1,155 @@
+
+/*header
+
+ */
+.header {
+    padding: 3px 0px;
+    font-size: 24px;
+    line-height: normal;
+    background: #ffffff;
+    color: black;
+}
+.container{
+    max-width: 1152px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.head_cont{
+    display: flex;
+}
+.nav_cont{
+    display: flex;
+    margin: 0 auto;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+
+}
+.nav{
+    display: flex;
+    padding: 0 ;
+    justify-content:space-between;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 0;
+    align-items: center;
+}
+.menu_item{
+    padding-right: 2.5em;
+
+
+}
+.menu_item:first-child{
+    padding-left: 181px;
+
+}
+.cab{
+    display: flex;
+    padding-right: 12px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body{
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.95);
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 300;
+    flex-direction: column;
+}
+/*
+Profile
+ */
+.all {
+    display: flex;
+    flex-direction: row;
+    padding: 100px 300px 0 300px;
+    margin: 100px 0 0 0;
+    max-height: 1000px;
+    border-radius: 12px;
+    }
+.box {
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    max-height: 500px;
+    max-width: 700px;
+    margin: 100px auto auto auto;
+}
+.half_box1{
+    display: flex;
+    flex-direction: row;
+
+}
+.half_box2{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.text1{
+    font-size: 24px;
+    margin: 44px 0 0 36px;
+    max-width: 500px;
+}
+.text2 {
+
+    font-size: 20px;
+    margin: 76px 0 0 36px;
+
+}
+.registered{
+    font-size: 18px;
+    margin: 116px 0 0 36px;
+
+}
+.pencil1{
+    max-height: 22px;
+    max-width: 22px;
+    margin: 44px 0 0 10px;
+
+}
+.pencil2{
+    max-height: 22px;
+    max-width: 22px;
+    margin: 76px 0 0 0;
+}
+.Avatar{
+    margin: 44px 44px 0 auto;
+    min-width: 88px;
+    min-height: 88px;
+}
+.krestik{
+    position:relative;
+    right: -670px;
+
+}
+/* Footer
+
+ */
+.footer{
+    background-color: rgba(170, 172, 172, 1);
+    min-height: 44px;
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:44px;
+    width:100%;
+}
+.fot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
