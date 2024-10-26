@@ -55,6 +55,31 @@ ul{
 body{
     background-color: rgba(255, 255, 255, 0.95);
 }
+.nav_field{
+    display: flex;
+    width: max-content;
+    height: 100%;
+    background: rgba(51, 52, 52, 0.68);
+}
+.nav_work_inf{
+    display: flex;
+    border-bottom: 3px solid rgba(51, 52, 52, 0.68);
+}
+.nav_ogl{
+    display: flex;
+    flex-direction: column;
+    padding: 0.5em 5em 0.5em 1em;
+}
+.nav_ogl_img_ob{
+    display: flex;
+    margin-top: 3.1em;
+    padding-left: 1em;
+}
+.nav_ogl_img{
+    width: 40px;
+    height: 40px;
+    position: bottom;
+}
 .dasdhboard{
     margin: 4em 0 4em 0;
 }
@@ -131,3 +156,17 @@ body{
     flex-wrap: wrap;
     flex-direction: column;
 } */
+
+
+
+
+
+.footer{
+    margin: 20px 0px 0px 0px;
+    background-color: rgba(170, 172, 172, 1);
+}
+.fot{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
