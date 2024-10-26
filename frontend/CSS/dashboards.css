@@ -2,8 +2,8 @@
     padding: 3px 0px;
     font-size: 24px;
     line-height: normal;
-    background: #ffffff;
-    color: black;
+    background: rgba(42, 45, 51, 1);
+    color: rgb(255, 255, 255);
 }
 .container{
     max-width: 1152px;
@@ -56,15 +56,27 @@ ul{
 body{
     background-color: rgba(255, 255, 255, 0.95);
 }
-/* .main{
-    width: m-content;
-} */
+.all_main{
+    display: flex;
+    flex-direction: row;
+}
+.cont_toppblock{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(rgba(215, 113, 84, 1), rgba(122, 63, 46, 1));
+    width: 100%;
+}
 .nav_container{
     max-width: 1152px;
 
 }
 .left_nav{
     display: flex;
+}
+.nav_menu{
+    display: flex;
+    /* position: relative; */
+    z-index: 0;
 }
 .nav_field{
     display: flex;
@@ -117,15 +129,17 @@ body{
 }
 .nav_topmenu{
     display: flex;
-    position: absolute;
+    z-index: 2;
+    /* position: relative; */
+    /* position: absolute;
     top: 3.36em;
-    right: 1.7em;
+    right: 1.7em; */
 }
 .nav_topmenu_field{
     display: flex;
     width: 100%;
     height: fit-content;
-    background: linear-gradient(rgba(144, 148, 148, 1), rgba(92, 94, 94, 1));
+    background: linear-gradient(rgba(144, 148, 148, 0.20), rgba(92, 94, 94, 0.20));
 }
 .nav_topmenu_n_s_h{
     display: flex;
@@ -202,6 +216,7 @@ body{
 .all_becklog{
     display: flex;
     justify-content: space-between;
+    margin: 6em 2em 5em 2em;
 }
 .becklog{
     display: flex;
@@ -225,12 +240,14 @@ body{
 } */
 .becklog_name{
     display: flex;
+    min-width: max-content;
+    min-height: max-content;
     font-family: "Poppins", sans-serif;
     font-weight: 300;
     font-style: normal;
     font-size: 20px;
     color: #ffffff;
-    padding: 21px 161px 26px 28px;
+    padding: 1.5em 7em 1.5em 1.6em;
 }
 .becklog_item{
     display: flex;
