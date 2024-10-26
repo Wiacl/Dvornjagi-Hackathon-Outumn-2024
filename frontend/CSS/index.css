@@ -1,9 +1,9 @@
 .header {
     padding: 3px 0px;
-    color: #ffffff;
     font-size: 24px;
     line-height: normal;
-    background: #202931;
+    background: #ffffff;
+    color: black;
 }
 .container{
     max-width: 1152px;
@@ -16,6 +16,10 @@
 .nav_cont{
     display: flex;
     margin: 0 auto;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+
 }
 .nav{
     display: flex;
@@ -29,20 +33,27 @@
     flex-basis: 0;
 }
 .menu-item{
-    padding-right: 30px;
-    color: #ffffff;
+    padding-right: 73px;
+}
+.menu-item:first-child{
+    padding-left: 181px;
+}
+.cab{
+    display: flex;
+    padding-right: 12px;
 }
 a{
     text-decoration: none;
     color: inherit;
 }
+
 ul{
     margin: 0;
     padding: 0;
     list-style: none;
 }
 body{
-    background-color: rgba(0, 111, 165, 0.95);
+    background-color: rgba(255, 255, 255, 0.95);
     font-family: 'Inter', sans-serif;
     font-size: 14px;
     line-height: 18px;
