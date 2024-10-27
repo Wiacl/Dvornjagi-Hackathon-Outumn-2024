@@ -6,7 +6,7 @@
         overflow-x: hidden;
     }
     .container_enter{
-        width:60% ;
+        /* width:60% ; */
         margin: 0 auto;
     }
     .menu_item{
@@ -15,10 +15,15 @@
     .header{
         width: 65%;
     }
-    /* .out_enter{
-        padding: 0 0.5em 0 0.5em;
+    .out_enter{
+        padding: 1em 2em 1em 2em;
         margin: 0 1em 0 0;
-    } */
+    }
+    .container_enter{
+        display: flex;
+        height: fit-content;
+        align-items: center;
+    }
     .container_enter_img{
         display: none;
     }

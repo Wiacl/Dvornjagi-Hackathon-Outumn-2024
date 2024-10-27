@@ -1,4 +1,40 @@
-﻿<!DOCTYPE html>
+﻿
+<?php
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    
+    $email = $_POST['email'];
+    $passwordone = $_POST['passwordone'];
+    $passwordtwo = $_POST['passwordtwo'];
+    $text = $_POST['text'];
+    
+
+
+    // Проверка данных
+    if ($passwordone == $passwordtwo) {
+
+        $content = file_get_contents('../data.json');
+        $jsonData = json_decode($content,true);
+        $jsonData[$email] = $passwordone;
+    
+        $postjson = json_encode($jsonData,JSON_FORCE_OBJECT);
+        file_put_contents('../data.json', $postjson);
+        header("Location: ../index.php");
+        exit();
+    } else {
+        echo "Пароли не совпадают.";
+    }
+
+
+    
+
+    
+}
+?>
+
+
+
+<!DOCTYPE html>
 
 <html lang="ru" >
 <head>
@@ -47,10 +83,10 @@
                                 <p class="name_enter">Регистрация</p>
                         
                                 <form action="" class="enter_form" id="enter" method="post">
-                                    <input type="text" class="enter_input" placeholder="Логин" id="username">
-                                    <input type="email" class="enter_input" placeholder="Email" id="email">
-                                    <input type="password" class="enter_input" placeholder="Пароль" id="password">
-                                    <input type="password" class="enter_input" placeholder="Повторите пароль" id="password2">
+                                    <input type="text" name = "text" class="enter_input" placeholder="Логин" id="username">
+                                    <input type="email" name= "email"  class="enter_input" placeholder="Email" id="email">
+                                    <input type="password" name = "passwordone" class="enter_input" placeholder="Пароль" id="password">
+                                    <input type="password" name = "passwordtwo" class="enter_input" placeholder="Повторите пароль" id="password2">
                                 </form>
 
                                 <p class="already_reg"><a href="./../enter.html" class="a_alrd_reg">Уже зарегистрированны?</a></p>

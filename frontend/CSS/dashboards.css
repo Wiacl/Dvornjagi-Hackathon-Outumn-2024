@@ -4,7 +4,6 @@
     line-height: normal;
     background: rgba(42, 45, 51, 1);
     color: rgb(255, 255, 255);
-    max-height: 45px;
 }
 .container{
     max-width: 1152px;
@@ -67,9 +66,11 @@ body{
     /* flex-grow: 2;
     flex-basis: 300em; */
 }
-.main{
-    display: inline-flex;
-    width: 100%;
+.all1{
+    display: none;
+    padding: 40%;
+    position: absolute;
+    z-index: 1;
 }
 .all {
     display: flex;
@@ -79,12 +80,13 @@ body{
     max-height: 1000px;
     border-radius: 12px;
 }
-.box2 {
+.box {
+    z-index: 3;
     border-radius: 2px;
     display: flex;
     flex-direction: column;
-    max-height: 500px;
-    max-width: 700px;
+    max-height: 20em;
+    max-width: 35em;
     margin: 100px auto auto auto;
 }
 .half_box1{
@@ -97,8 +99,9 @@ body{
     flex-direction: row;
 
 }
-
-
+.text{
+    display: none;
+}
 .text1{
     color: aliceblue;
     font-size: 24px;
@@ -303,7 +306,6 @@ body {
     font-style: normal;
     font-size: 20px;
     color: #ffffff;
-    max-width: 315px;
 }
 .nav_us_name{
     font-size: 18px;
@@ -312,27 +314,6 @@ body {
     display: flex;
     border-bottom: 3px solid rgba(51, 52, 52, 0.68);
 }
-.nav_work_inf:hover{
-    background: #727474;
-    transition: 0.5s;
-    color:#fff;
-}
-.all1{
-    position: absolute;
-    left: 315px;
-    top: -53px;
-    display:none;
-    z-index: 8888;
-    transition: 0.5s;
-}
-.main div div div:hover div{
-    display: flex;
-}
-
-
-
-
-
 .nav_ogl{
     display: flex;
     flex-direction: column;
@@ -463,22 +444,6 @@ body {
     flex-wrap: wrap;
     flex-direction: column;
 }
-.becklog_item_img.hover{
-    background: white;
-    transition: 0.5s;
-
-}
-.knopka{
-    background-color: rgba(146, 114, 104, 0.9);
-    border: 0;
-}
-.knopka:hover{
-    background-color: rgba(100, 114, 104, 1000);
-    transition: 0.5s;
-}
-
-
-
 /* .becklog1{
     display: flex;
     padding-bottom: 2em;
@@ -532,51 +497,6 @@ body {
     display: flex;
     margin: 10px 0px 30px 12px ;
     pointer-events: none;
-}
-
-
-.zatemnenie {
-    background: rgba(102, 102, 102, 0.5);
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: none;
-}
-/*.text {
-    text-align: center;
-    padding: 15px;
-    color: #0000cc;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    margin: auto;
-    display: inline-flex;
-    z-index: 100000;
-}
-
- */
-.box{border-radius: 2px;
-    display: flex;
-    flex-direction: column;
-    max-height: 500px;
-    max-width: 700px;
-    z-index: 1000000;
-}
-.zatemnenie:target {display: block;}
-.close {
-    display: inline-block;
-    border: 1px solid #0000cc;
-    color: #0000cc;
-    padding: 0 12px;
-    margin: 10px;
-    text-decoration: none;
-    background: #f2f2f2;
-    font-size: 14pt;
-    cursor:pointer;
 }
 /* .becklog_item1{
     display: flex;
