@@ -59,6 +59,7 @@ body{
 .all_main{
     display: flex;
     flex-direction: row;
+    height: 100%;
 }
 .cont_toppblock{
     display: flex;
