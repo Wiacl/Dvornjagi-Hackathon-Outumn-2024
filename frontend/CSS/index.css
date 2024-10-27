@@ -170,11 +170,16 @@ body{
     justify-content: center;
 }
 .footer{
-    margin: 6em 0px 0px 0px;
     background-color: rgba(170, 172, 172, 1);
+    min-height: 44px;
+    position:fixed;
+    left:0;
+    bottom:0;
+    height:44px;
+    width:100%;
 }
 .fot{
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
 }
