@@ -16,7 +16,7 @@
 }
 .nav_cont{
     display: flex;
-    margin: 0 auto;
+    margin: 0 auto auto 0;
 }
 .nav{
     display: flex;
@@ -36,7 +36,7 @@
 
 }
 .menu_item:first-child{
-    padding-left: 181px;
+    padding-left: 120px;
 
 }
 .cab{
@@ -135,5 +135,6 @@ body{
     align-items: center;
 }
 .logo-img{
-    max-height: 24px;
+    max-height: 35px;
+    margin: 5px 0 0 20px;
 }
