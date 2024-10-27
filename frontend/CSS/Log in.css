@@ -197,7 +197,7 @@ a {
 
 .nav_cont {
     display: flex;
-    margin: 0 auto;
+    margin: 0 auto auto 0;
     font-family: "Poppins", sans-serif;
     font-weight: 300;
     font-style: normal;
@@ -221,7 +221,7 @@ a {
 }
 
     .menu_item:first-child {
-        padding-left: 181px;
+        padding-left: 120px;
     }
 
 .cab {
@@ -233,4 +233,8 @@ ul {
     margin: 0;
     padding: 0;
     list-style: none;
+}
+.logo-img{
+    max-height: 35px;
+    margin: 5px 0 0 20px;
 }

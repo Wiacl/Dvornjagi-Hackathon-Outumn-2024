@@ -1,5 +1,5 @@
 .header {
-    padding: 3px 0px;
+    padding: 3px 0;
     font-size: 24px;
     line-height: normal;
     background: rgba(42, 45, 51, 1);
@@ -8,14 +8,14 @@
 .container{
     max-width: 1152px;
     margin: 0 auto;
-    padding: 0px 15px;
+    padding: 0 15px;
 }
 .head_cont{
     display: flex;
 }
 .nav_cont{
     display: flex;
-    margin: 0 auto;
+    margin: 0 auto auto 0;
     font-family: "Poppins", sans-serif;
     font-weight: 300;
     font-style: normal;
@@ -23,7 +23,7 @@
 }
 .nav{
     display: flex;
-    padding: 0 auto;
+    padding: 0;
     justify-content:space-between;
     align-items: center;
 }
@@ -37,7 +37,7 @@
     padding-right: 2.5em;
 }
 .menu_item:first-child{
-    padding-left: 181px;
+    padding-left: 120px;
 }
 .cab{
     display: flex;
@@ -308,4 +308,8 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.logo-img{
+    max-height: 35px;
+    margin: 0 0 0 20px;
 }

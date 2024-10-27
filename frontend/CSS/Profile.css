@@ -19,7 +19,7 @@
 }
 .nav_cont{
     display: flex;
-    margin: 0 auto;
+    margin: 0 auto auto 0;
     font-family: "Poppins", sans-serif;
     font-weight: 300;
     font-style: normal;
@@ -43,7 +43,7 @@
 
 }
 .menu_item:first-child{
-    padding-left: 181px;
+    padding-left: 120px;
 
 }
 .cab{
@@ -81,7 +81,7 @@ Profile
     border-radius: 12px;
     }
 .box {
-    border-radius: 12px;
+    border-radius: 7px;
     display: flex;
     flex-direction: column;
     max-height: 500px;
@@ -100,17 +100,19 @@ Profile
 }
 
 .text1{
+    color: aliceblue;
     font-size: 24px;
     margin: 44px 0 0 36px;
     max-width: 500px;
 }
 .text2 {
-
+    color: aliceblue;
     font-size: 20px;
     margin: 76px 0 0 36px;
 
 }
 .registered{
+    color: aliceblue;
     font-size: 18px;
     margin: 116px 0 0 36px;
 
@@ -152,4 +154,8 @@ Profile
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.logo-img{
+    max-height: 35px;
+    margin: 5px 0 0 20px;
 }
