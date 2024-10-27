@@ -1,8 +1,5 @@
 ﻿body {
-    height: 1080px;
-    width: 100%;
     margin: 0;
-
     font-family: "Poppins", sans-serif;
     font-weight: 300;
     font-style: normal;
@@ -24,9 +21,9 @@ a {
 }
 
 .container {
-    width: 100%; /* Ширина слоя */
-    height: 100%;
-    margin: 0 auto; /* Выравнивнить весь блок по центру */
+    max-width: 1152px;
+    margin: 0 auto;
+    padding: 0px 15px;
 }
 
 .sidebar {
@@ -38,7 +35,16 @@ a {
     padding: 0px; /* Отступы внутри левого блока */
     float: right; /* Обтекание блока по левому краю */
 }
-
+.container_enter{
+    display: flex;
+    height: fit-content;
+    align-items: center;
+}
+.container_enter_img{
+    display: flex;
+    width: 551px;
+    height: 310px;
+}
 .content {
     width: 50%;
     margin-left: 60px;
@@ -209,21 +215,18 @@ a {
     align-items: center;
 }
 
-.menu {
+.menu{
     display: flex;
     flex-grow: 1;
     flex-basis: 0;
     align-items: center;
 }
-
-.menu_item {
+.menu_item{
     padding-right: 2.5em;
 }
-
-    .menu_item:first-child {
-        padding-left: 120px;
-    }
-
+.menu_item:first-child{
+    padding-left: 120px;
+}
 .cab {
     display: flex;
     padding-right: 12px;

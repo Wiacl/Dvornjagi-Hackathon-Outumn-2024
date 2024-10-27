@@ -1,0 +1,31 @@
+@media only screen and (max-width: 1200px){
+    /* .container{
+        width: min-content;
+    } */
+    html{
+        overflow-x: hidden;
+    }
+    .container_enter{
+        width:60% ;
+        margin: 0 auto;
+    }
+    .menu_item{
+        display: none;
+    }
+    .header{
+        width: 65%;
+    }
+    /* .out_enter{
+        padding: 0 0.5em 0 0.5em;
+        margin: 0 1em 0 0;
+    } */
+    .container_enter_img{
+        display: none;
+    }
+    /* .cab{
+        padding-left: 0.5em;
+    } */
+    .enter{
+        width: 50%;
+    }
+}

@@ -6,12 +6,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="./../CSS/normalize.css">
         <link rel="stylesheet" href="./../CSS/Log in.css">
+        <link rel="stylesheet" href="../CSS/adptive_login.css">
         <title>Log in</title>
 </head>
 <body>
-    <div class="container">
         <header class="header">
-            <div class="container1">
+            <div class="container">
                 <div class="head_cont">
                     <a href="./dashboard.html" class="logo">
                         <img src="../images/logo1.png" alt="Логотип сайта" class="logo-img">
@@ -35,63 +35,57 @@
                             </a>
                         </nav>
                     </div>
-                </div>
             </div>
         </header>
-        <div class="sidebar">
-            <main class="main">
-                <section class="enter">
-                    <div class="container">
-                        <div class="container_enter">
-                            <div class="out_enter">
-                                <div class="in_enter">
-                                    <p class="name_enter">Регистрация</p>
+        <main class="main">
+            <section class="enter">
+                <div class="container">
+                    <div class="container_enter">
+                        <img src="../images/endless-todo-list.png 1.png" alt="" class="container_enter_img">
+                        <div class="out_enter">
+                            <div class="in_enter">
+                                <p class="name_enter">Регистрация</p>
+                        
+                                <form action="" class="enter_form" id="enter" method="post">
+                                    <input type="text" class="enter_input" placeholder="Логин" id="username">
+                                    <input type="email" class="enter_input" placeholder="Email" id="email">
+                                    <input type="password" class="enter_input" placeholder="Пароль" id="password">
+                                    <input type="password" class="enter_input" placeholder="Повторите пароль" id="password2">
+                                </form>
 
-                                    <form action="" class="enter_form" id="enter" method="post">
-                                        <input type="text" class="enter_input" placeholder="Логин" id="username">
-                                        <input type="email" class="enter_input" placeholder="Email" id="email">
-                                        <input type="password" class="enter_input" placeholder="Пароль" id="password">
-                                        <input type="password" class="enter_input" placeholder="Повторите пароль" id="password2">
-                                    </form>
-
-                                    <p class="already_reg"><a href="./../enter.html" class="a_alrd_reg">Уже зарегистрированны?</a></p>
-                                    <button type="submit" class="enter_button" form="enter" id="enter">Зарегистрироваться</button>
-                                </div>
+                                <p class="already_reg"><a href="./../enter.html" class="a_alrd_reg">Уже зарегистрированны?</a></p>
+                                <button type="submit" class="enter_button" form="enter" id="enter">Зарегистрироваться</button>
                             </div>
                         </div>
                     </div>
-                </section>
-            </main>
-        </div>
-        <div class="content">
-            <img src="../images/endless-todo-list.png 1.png" width="551" height="310" vertical-align: top:>
-        </div>
+                </div>
+            </section>
+        </main>
         <footer class="footer">
             <div class="container">
-                <nav class="nav">
-                    <ul class="menu">
-                        <li class="menu_item">
-                            © 2024
-                        </li>
-                        <li class="menu_item">
-                            <a href="tel:84955405179" class="menu_number">8 495-540-51-79</a>
-                        </li>
-                        <li class="menu_item">
-                            Политика обработки персональных данных
-                        </li>
-                        <li class="menu_item">
-                            <a href="#" class="menu_link"><img src="../images/hh.png" alt="" class="menu_hh"></a>
-                        </li>
-                        <li class="menu_item">
-                            <a href="#" class="menu_link"><img src="../images/vk.png" alt="" class="menu_hh"></a>
-                        </li>
-                        <li class="menu_item">
-                            <a href="#" class="menu_link"><img src="../images/tg.png" alt="" class="menu_hh"></a>
-                        </li>
-                    </ul>
-                </nav>
+                    <nav class="nav">
+                        <ul class="menu">
+                            <li class="menu_item">
+                                © 2024
+                            </li>
+                            <li class="menu_item">
+                                <a href="tel:84955405179" class="menu_number">8 495-540-51-79</a>
+                            </li>
+                            <li class="menu_item">
+                                Политика обработки персональных данных
+                            </li>
+                            <li class="menu_item">
+                                <a href="#" class="menu_link"><img src="../images/hh.png" alt="" class="menu_hh"></a>
+                            </li>
+                            <li class="menu_item">
+                                <a href="#" class="menu_link"><img src="../images/vk.png" alt="" class="menu_hh"></a>
+                            </li>
+                            <li class="menu_item">
+                                <a href="#" class="menu_link"><img src="../images/tg.png" alt="" class="menu_hh"></a>
+                            </li>
+                        </ul>
+                    </nav>
             </div>
         </footer>
-    </div>
 </body>
 </html>
