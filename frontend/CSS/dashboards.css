@@ -305,7 +305,7 @@ body{
 .footer{
     background-color: rgba(170, 172, 172, 1);
     min-height: 44px;
-    position:fixed;
+    position:relative;
     left:0;
     bottom:0;
     height:44px;
