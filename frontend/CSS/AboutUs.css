@@ -1,7 +1,4 @@
 
-/*header
-
- */
 .header {
     padding: 3px 0;
     font-size: 24px;
@@ -66,20 +63,20 @@ body{
     flex-direction: column;
 }
 
-/*
-About Us
- */
 .all{
     display: flex;
     flex-direction: row;
+    margin: 5em 0 0 0;
+    justify-content: center;
+    align-items: center;
 }
 
 .box1{
     display: flex;
-    flex-direction: row-reverse;
     max-width: 324px;
     max-height: 324px;
-    margin: 200px 0 0 400px;
+    margin: 0 10em 0 0;
+    /* margin: 200px 0 0 400px; */
     border-radius: 12px;
 }
 
@@ -90,7 +87,7 @@ About Us
     flex-direction: column;
     max-height: 700px;
     max-width: 450px;
-    margin: 100px 0 0 300px;
+    /* margin: 100px 0 0 300px; */
     justify-content: center;
 
 
