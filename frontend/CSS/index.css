@@ -183,3 +183,6 @@ body{
     justify-content: space-between;
     align-items: center;
 }
+.logo{
+    max-height: 15px;
+}
