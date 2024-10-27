@@ -29,6 +29,7 @@
     flex-grow: 1;
     flex-basis: 0;
     align-items: center;
+    cursor: pointer;
 }
 .menu_item{
     padding-right: 2.5em;
